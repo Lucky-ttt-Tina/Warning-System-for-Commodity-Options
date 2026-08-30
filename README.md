@@ -1,7 +1,5 @@
 # 期权波动率风险智能预警系统（官方数据口径）
 
-> 第五届研究生金融科技创新大赛 · 宁证期货赛题 · 团队：新兴一代
-
 ---
 
 ## 1. 项目简介
@@ -123,7 +121,7 @@ jupyter lab data_pipeline/official/run_all.ipynb
 │   ├── backtest_systemic.py
 │   ├── train_drl_15m.py
 │   ├── cvar_official.py
-│   ├── cvar_competition.py           # 竞赛原文口径
+│   ├── cvar_competition.py          
 │   ├── build_knowledge_graph.py
 │   ├── build_dashboard.py
 │   ├── build_report_official.py
@@ -131,15 +129,15 @@ jupyter lab data_pipeline/official/run_all.ipynb
 │   ├── run_all.ipynb                 # 分章节复现 notebook
 │   └── ...
 ├── data/
-│   ├── clean/official/               # 官方产物
+│   ├── clean/official/               # 产物
 │   └── clean/warnings/official/      # 预警/看板/KG 产物
-├── 官方data/                         # 原始官方 archive（未提交）
+├── 官方data/                         
 ├── build_lean_canvas.py
 ├── build_docx_report.py
 ├── build_figures.py
 ├── requirements.txt
-├── README.md
-└── 精益画布_新兴一代.pptx
+└── README.md
+
 ```
 
 ---
