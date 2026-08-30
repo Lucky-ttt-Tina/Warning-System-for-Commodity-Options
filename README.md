@@ -152,8 +152,3 @@ jupyter lab data_pipeline/official/run_all.ipynb
 4. **环境**：所有脚本在 Python 3.13 + polars 1.43 环境下验证通过。
 4. **诚实口径**：技术报告中已诚实说明规则全量 L1 精确率天花板、DCE 命名事件稀疏、PPO 未超越 BC+τ* 等局限。
 
----
-
-## 8. 联系方式
-
-赛题对接：宁证期货 王裕豪 19537776239
